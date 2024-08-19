@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Frontend Mentor | Age calculator app</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="stylesheet" href="css/estilos.css">
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <form class="container" id="contactForm">
+            <div class="caja">
+                <div class="caja__data">
+                    <h2 class="caja__day__h2">DAY</h2>
+                    <input type="text" name="day" class="caja__day__input" placeholder="DD">
+                    <p class="required"></p>
+                </div>
+                <div class="caja__data">
+                    <h2 class="caja__day__h2">MONTH</h2>
+                    <input type="text" name="day" class="caja__day__input" placeholder="MM">
+                    <p class="required"></p>
+                </div>
+                <div class="caja__data">
+                    <h2 class="caja__day__h2">YEAR</h2>
+                    <input type="text" name="day" class="caja__day__input" placeholder="YYYY">
+                    <p class="required"></p>
+                </div>
+            </div>
+            <div class="container-linea">
+                <hr></hr>
+                <button type="submit" value="Submit">
+                    <img src="images/icon-arrow.svg" alt="icon-arrow" class="button">
+                </button>
+            </div>
+            <div class="results">
+                <span></span><h2 class="result__msg">years</h2><br>
+                <span></span><h2 class="result__msg">months</h2><br>
+                <span></span><h2 class="result__msg">days</h2><br>
+            </div>
+        </form>
+    </body>
+</html>
